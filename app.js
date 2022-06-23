@@ -17,6 +17,7 @@
     const usuarios  = require('./routes/usuarios');
     const passport = require('passport');
     require('./config/auth')(passport)
+    const db = require('./config/db')
 // CONFIGURAÇÕES
     // Sessão
         app.use(session({ // entre a definição da sessão e do flash coloca a função
@@ -43,7 +44,7 @@
         app.set('view engine', 'handlebars');
     // modulo Momgoose
         mongoose.Promise = global.Promise;
-        mongoose.connect('mongodb://localhost/Blognode').then(() =>{
+        mongoose.connect(db.mongoURI).then(() =>{
             console.log('conectado')
         }).catch((err) => {
             console.log('ERRO: '+err)
