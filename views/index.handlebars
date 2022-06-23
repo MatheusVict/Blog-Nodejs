@@ -1,0 +1,34 @@
+
+<div class="bg-light p-5 rounded-lg m-3" style="border-radius:15px ;">
+    <h1 class="display-4">Bem vindo ao Blog</h1><img width="200" height="70" src="https://www.ayrtonsenna.com.br/wp-content/uploads/2018/08/img-senna.png">
+    <p class="lead">Aprecie e se divirta</p>
+    <hr class="my-4">
+    <p>É um blog aberto para todas as categorias do automobilismo.</p>
+    {{#if user}}
+    <p>Obrigado por se registrar, se tiver alguma sugestão<br>
+    Entre em contato: <a href="mailto:matheusvictorhenrique@gmailcom">Email</a></p>
+    {{else}}
+    <a href="/usuarios/registro" class="btn btn-primary btn-lg" role="button">Registre-se agora</a>
+    {{/if}}
+
+</div>
+
+<hr>
+
+<h2 style="color:white">Últimas postagens: </h2>
+
+{{#each postagens}}<!-- exbir as postagens solicitadas pelo código ao banco para serem exibidas-->
+<div class="card mt-4" style="border-radius:15px ;">  
+    
+    <div class="card-body">
+        <h3>{{titulo}}</h3>
+        <p>Descrição: {{descrição}}</p>
+        <a href="/postagens/{{slug}}"><button class="btn btn-success">Leia mais</button></a>
+        <hr>
+        <small>Categoria: {{categoria.nome}}</small><br>
+    <small>Data de publicação: {{data}}</small>
+    </div>
+</div>
+{{else}}
+    <h3 align="center">Nenhuma postagem</h3>
+{{/each}}

@@ -1,0 +1,19 @@
+{{#each erros}} <!--Para cada erro ele vai exibir o valor de texto do erro-->
+    <div class="alert alert-danger">{{texto}}</div>
+{{else}}
+
+{{/each}} <!-- mostrar dados do back no front-->
+<h2 style="color:white ;">Editar categoria:</h2>
+<div class="card">
+    <div class="card-body">
+    <form action="/adm/categorias/edit" method="post">
+    <input type="hidden" name="id" value="{{categoria._id}}">
+        <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Nomei a categoria" class="form-control form-control-lg" value="{{categoria.nome}}">
+        <label for="slogan">Slug</label>
+            <input type="text" id="slogan" name="slug" placeholder="Informe o slug da categoria sem letras maiuscula" class="form-control form-control-lg" value="{{categoria.slug}}"><br>
+        <button type="submit" class="btn btn-success">Salvar mudanças</button>
+    </form>
+    </div>
+</div>
+

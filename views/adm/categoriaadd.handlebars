@@ -1,0 +1,18 @@
+{{#each erros}} <!--Para cada erro ele vai exibir o valor de texto do erro-->
+    <div class="alert alert-danger">{{texto}}</div>
+{{else}}
+
+{{/each}} <!-- mostrar dados do back no front-->
+<h2 style="color:white ;">Registre uma categoria:</h2>
+<div class="card">
+    <div class="card-body">
+    <form action="/adm/categorias/new" method="post">
+        <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Nomei a categoria" class="form-control form-control-lg">
+        <label for="slogan">Slug</label>
+            <input type="text" id="slogan" name="slug" placeholder="Informe o slug da categoria sem letras maiuscula" class="form-control form-control-lg"><br>
+        <button type="submit" class="btn btn-success">Criar</button>
+    </form>
+    </div>
+</div>
+

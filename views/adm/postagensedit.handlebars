@@ -1,0 +1,33 @@
+{{#each erros}}
+    <div class="alert alert-danger">{{texto}}</div>
+{{else}}
+
+{{/each}}
+
+<div class="card">
+    <div class="card-body">
+        <h3>Edite a postagem:</h3>
+        <form action="/adm/postagens/edit" method="post">
+        <input type="hidden" value="{{postagem._id}}" name="id"><!-- Não esquce de botar postagem.id pra pegar o valor da postagem-->
+        <label for="titulo">Título: </label>
+        <input type="text" name="titulo" placeholder="Título da postagem" value="{{postagem.titulo}}" class="form-control">
+        <label for="slug">Slug: </label>
+        <input type="text" name="slug" placeholder="Slug da postagem" value="{{postagem.slug}}" class="form-control">
+        <label for="descrição">Descrição: </label>
+        <input type="text" name="descrição" placeholder="Descrição da postagem" value="{{postagem.descrição}}" class="form-control">
+        <label for="conteudo">Conteúdo: </label>
+        <textarea name="conteudo" id="" cols="30" rows="5"  placeholder="conteúdo da postagem" class="form-control">{{postagem.conteudo}}</textarea>
+        <label for="categoria">Categoria</label>                                              <!-- Textarea não tem value põe entre as tags-->
+        <select name="categoria" class="custom-select"><
+            {{#each categorias}}
+            <option value="{{_id}}">{{nome}}</option>
+            {{else}}
+            <option value="0">Nenhuma categoria registrada</option>
+            {{/each}}
+        </select>
+        <button class="btn btn-success mt-4" type="submit">Alterar</button>
+
+
+        </form>
+    </div>
+</div>
