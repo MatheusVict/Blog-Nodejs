@@ -18,6 +18,12 @@
     const passport = require('passport');
     require('./config/auth')(passport)
     const db = require('./config/db')
+    const dbUrl = 'mongodb+srv://Matheus:familia26@cluster0.gtg2mvd.mongodb.net/Blognode?retryWrites=true&w=majority'
+
+    const connectionParams = {
+        useNewUrlParser: true,
+        useUnifiedTopology: true
+    }
 // CONFIGURAÇÕES
     // Sessão
         app.use(session({ // entre a definição da sessão e do flash coloca a função
@@ -44,7 +50,7 @@
         app.set('view engine', 'handlebars');
     // modulo Momgoose
         mongoose.Promise = global.Promise;
-        mongoose.connect(db.mongoURI).then(() =>{
+        mongoose.connect(dbUrl, connectionParams).then(() =>{
             console.log('conectado')
         }).catch((err) => {
             console.log('ERRO: '+err)
