@@ -133,5 +133,5 @@ app.use('/usuarios', usuarios)
 const PORT = process.env.PORT || 5500
 app.listen(PORT, () =>{
     console.log('Servidor iniciado no: http://127.0.0.1:5500') 
-})
+});
 // se o local host der problema utilize o ip do servidor, se não souber inicie um arquivo html pelo live server e mostrará na url
