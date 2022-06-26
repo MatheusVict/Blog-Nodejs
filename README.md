@@ -1,23 +1,56 @@
 # Blog-Nodejs
+ <b>Utliza o mongodb, express, body-parser, bcryptjs, handlebars, path, express-secion, connect-flash✅<br>
+ 🔙É um projeto com foco total no back end para demonstrar minhas habilidades<br>
+ Possui funções como: <br>
+ Validação no login, cadastro, na edição e criação de categorias e postagens<br>
+ 📶Responsividade, Conexão, envio, requisição e exibição de dados do banco de dados💱<br>
+ 🚰Senha criptografadas<br>
+ 🛂Autenticação no login e cadastro<br>
+ 🛅Nível de acesso<br>
+ 🔄Parametros<br></b><br>
+ <div align="center">
+  </div>
+
+
+
+
+
 <div align="center"><h2>Código<h2></div>
 <div align="center">
-<img src="">
+  <img height="350" src="https://user-images.githubusercontent.com/103688000/175821971-27b7c076-5802-4095-9561-b4eecd6533c2.png">
+    <h3>Carregando todas as bibliotecas necessárias<h3><br>
+  <img height="100" src="https://user-images.githubusercontent.com/103688000/175822345-329e86db-9b88-4add-bd32-af8842d001c5.png"> 
+     <h3>Configurando os parametros de conexão com o servidor<h3>
+  <img height="200" src="https://user-images.githubusercontent.com/103688000/175822151-2235fb5b-a28e-4915-ac74-99306e730778.png">
+     <h3>Configurando o handlebars e estabelecendo um conexão com o banco de dados no servidor<h3>
+  <img src="https://user-images.githubusercontent.com/103688000/175822448-56c5f297-6d15-498b-9390-213417f8df9b.png">
+     <h3>Configurando a sessão de criptografia<h3><br>
+  <img  src="https://user-images.githubusercontent.com/103688000/175822673-0349b52d-c4d7-4b50-be67-348f0f73f990.png">
+     <h3>Configurando os arquivos estaticos do bootstrap<h3><br>
+  <img src="https://user-images.githubusercontent.com/103688000/175822793-4e3c2601-9101-4328-8bac-942792402ada.png">
+     <h3>Criando a função de nível de acesso, para por onde for necessário<h3><br>
+  <img src="https://user-images.githubusercontent.com/103688000/175823064-72c4e229-8d8f-49f3-a049-d8b038c4ea33.png">
+     <h3>Configurando como o banco vai armazenar e tratar esse dados de acordo com seus parametros<h3><br>
+   <img src="https://user-images.githubusercontent.com/103688000/175823209-a5e2c734-5dc1-4f24-a436-5af2a56e6c30.png">
+      <h3>Vai abrir de acordo com o parametro(no caso o slug) vai requerir o slug de cada postagem ou categoria pra exibir de acordo com a busca<h3><br>
+   <img src="https://user-images.githubusercontent.com/103688000/175823635-70313e9e-a0a2-4ca0-b7ea-8d756042b1af.png">
+        <h3>Endereço post onde é enviado os formularios que passam por uma validação e são peguos as informações recebidas e salvas no banco de dados<h3><br>
+   <img src="https://user-images.githubusercontent.com/103688000/175823767-c175bb6a-d612-4e8f-bb40-809483a1148d.png">
+     <h3>Porta de conexão já configurada para o deploy<h3><br>
+    <img height="350" src="https://user-images.githubusercontent.com/103688000/175824407-31ec9543-ca3f-4f76-a0f2-704f1bd15046.png">
+      <h3>Onde as senhas vão ser ciptografadas no tipo Hash(irreversível) e depois salva<h3>
+   <img  src="https://user-images.githubusercontent.com/103688000/175824345-0b865057-cce1-48cb-b720-f5dab6228f18.png">
+     <h3>Autenticção no login com emaill como parametro, onde se não encontrado a conta é inexistente e se encontrado e a senha criptografada não bater avisa que está errada<h3><br>
+   <img src="https://user-images.githubusercontent.com/103688000/175824614-fa29a45b-cac5-4e81-bd43-ae33f5b7e2a4.png">
+    <h3>Autenticação no cadastro para saber se a conta existe com o email como parametro<h3><br>
+   <img src="https://user-images.githubusercontent.com/103688000/175824700-bb7b1378-b9cf-4f14-a87a-7f46d0a67263.png">
+     <h3>Criando a função de logout para a desconexão com a conta<h3>
   
   
-</div>
-
-
-
-
-
-
-
-
-
-
+</div><hr>
  <div align="center">
-    <h2>Blog<h2>
-    <h2>Usuários padrões<h2>
+   <h2>Blog:<br>
+   Usuários padrões<h2>
     <img height="350" src="https://user-images.githubusercontent.com/103688000/175814857-1509fc63-0098-4e9a-aa96-12ff4ffce1e2.png">
       <h3>A tela incial de quando você não está logado<h3><br>
     <img height="350" src="https://user-images.githubusercontent.com/103688000/175815062-3706c74d-3d23-4ae5-8e4a-86487ef14829.png">
