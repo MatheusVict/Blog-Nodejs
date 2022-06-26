@@ -1,15 +1,17 @@
-# Blog-Nodejs
- <b>Utliza o mongodb, express, body-parser, bcryptjs, handlebars, path, express-secion, connect-flash✅<br>
+<div align="center"><h1> Blog-Nodejs<h1><br>
+ <h2>Link:<h2>⌨https://blogf12.herokuapp.com/</div>
+ <b>🔬Utliza o mongodb, express, body-parser, bcryptjs, handlebars, path, express-secion, connect-flash✅<br>
  🔙É um projeto com foco total no back end para demonstrar minhas habilidades<br>
  Possui funções como: <br>
- Validação no login, cadastro, na edição e criação de categorias e postagens<br>
+ 🏅Validação no login, cadastro, na edição e criação de categorias e postagens<br>
  📶Responsividade, Conexão, envio, requisição e exibição de dados do banco de dados💱<br>
  🚰Senha criptografadas<br>
  🛂Autenticação no login e cadastro<br>
  🛅Nível de acesso<br>
- 🔄Parametros<br></b><br>
+ 🔄Parametros<br>
+  🎞Exibição dos dados do banco de acordo com os parametros</b><br>
  <div align="center">
- <h1>Tecnologias usadas:<h1><br>
+ <h1>Tecnologias usadas💾:<h1><br>
  <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white">
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
   <img src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge">
@@ -20,12 +22,16 @@
  <img src="https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white">
  <img src="https://img.shields.io/badge/powershell-5391FE?style=for-the-badge&logo=powershell&logoColor=white">
  <img src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white">
+ <img src="https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white">
  <img src="https://img.shields.io/badge/Microsoft-666666?style=for-the-badge&logo=microsoft&logoColor=white">
  <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white">
  </div>
  <div align="center">
-  <h1>Contato:<h1><br>
-   <img src="">
+  <h1>Contato💻:<h1><br>
+   <a href="https://instagram.com/matheus_cipher" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
+ <a href="https://discord.gg/akira cipher#6272" target="_blank"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" target="_blank"></a> 
+  <a href = "mailto:matheusvictorhenrique@gmailcom"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+  <a href="https://www.linkedin.com/in/matheus-victor-henrique-270640236/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
   </div>
 
 
