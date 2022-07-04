@@ -4,7 +4,7 @@
  🔙É um projeto com foco total no back end para demonstrar minhas habilidades<br>
  Possui funções como: <br>
  🏅Validação no login, cadastro, na edição e criação de categorias e postagens<br>
- 📶Responsividade, Conexão, envio, requisição e exibição de dados do banco de dados💱<br>
+ 📶Responsividade, Conexão, envio, requisição, exibição. Um Crud completo de dados do banco de dados💱<br>
  🚰Senha criptografadas<br>
  🛂Autenticação no login e cadastro<br>
  🛅Nível de acesso<br>
